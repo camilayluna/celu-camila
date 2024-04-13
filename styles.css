@@ -6,7 +6,7 @@ body {
 .container {
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 120px;
     text-align: center;
     color: white;
 }
@@ -89,7 +89,7 @@ label {
 
 select {
     font-size: 16px;
-    padding: 150px;
+    padding: 50px;
   
 }
 
