@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Alquiler del Celular</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Contador de Alquiler del Celular</h1>
+    <div class="center-container">
+       
+        <div class="container">
+            <label for="cantidad">Seleccione la cantidad a sumar:</label>
+            <select id="cantidad">
+                <option value="0">0</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+            </select>
+            <br><br>
+           
+            <!-- Modal de confirmación (oculto inicialmente) -->
+            <div id="myModal" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <span class="close" onclick="cerrarModal()">&times;</span>
+                    <p>Apoye su pulgar para confirmar</p>
+                    <button onclick="confirmarPago()">Aceptar</button>
+                </div>
+            </div>
+            <br><br>
+            <textarea id="mensaje" readonly></textarea>
+             <!-- Botón con imagen (oculto inicialmente) -->
+             <button id="botonPago" style="display: none;">
+              
+                <img src="./huella.jpg" alt="Imagen de botón" width="60" height="60">
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

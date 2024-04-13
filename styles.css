@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+ 
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    text-align:center;
+    
+    
+}
+#botonPago {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden; /* Para asegurarse de que la imagen siga la forma del botón */
+}
+
+#botonPago img {
+    width: 100%; /* Ajustar el tamaño de la imagen para que llene el botón */
+    height: 100%;
+    border-radius: 50%; /* Aplicar border-radius a la imagen */
+}
+
+
+
+#botonpago:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el ratón */
+}
+
+#botonpago:active {
+    background-color: #4CAF50; /* Verde más oscuro cuando se hace clic */
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #45a049;
+}
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    color: #4CAF50;
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+select {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Verde */
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el ratón */
+}
+
+button:active {
+    background-color: #4CAF50; /* Verde más oscuro cuando se hace clic */
+}
+/* Estilos para el contenedor central */
+.center-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Hacer que el contenedor ocupe toda la altura de la ventana */
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
