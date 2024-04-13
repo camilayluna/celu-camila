@@ -9,7 +9,16 @@
 <body>
     <h1>Contador de Alquiler del Celular</h1>
     <div class="center-container">
-       
+         <div class="container">
+            <label for="cantidad">Seleccione la cantidad a sumar:</label>
+            <select id="cantidad">
+                <option value="0">0</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+                <option value="25">25</option>
+            </select>
        
            
             <!-- Modal de confirmación (oculto inicialmente) -->
@@ -23,16 +32,7 @@
             <br><br>
             <textarea id="mensaje" readonly></textarea>
          <br><br>
-         <div class="container">
-            <label for="cantidad">Seleccione la cantidad a sumar:</label>
-            <select id="cantidad">
-                <option value="0">0</option>
-                <option value="5">5</option>
-                <option value="10">10</option>
-                <option value="15">15</option>
-                <option value="20">20</option>
-                <option value="25">25</option>
-            </select>
+       
            
              <!-- Botón con imagen (oculto inicialmente) -->
              <button id="botonPago" style="display: none;">
